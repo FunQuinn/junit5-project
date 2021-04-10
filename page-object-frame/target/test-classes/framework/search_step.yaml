@@ -1,0 +1,13 @@
+data:
+- 接口测试框架
+- BAT 大厂测试开发
+
+steps:
+  - chrome: {}
+  - implicitly_wait: 5
+  - get: https://ceshiren.com
+  - find: { id: search-button }
+  - click: {}
+  - find: { id: search-term }
+  - send_keys: {data}
+  - quit: {}

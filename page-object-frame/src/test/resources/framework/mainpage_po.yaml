@@ -1,0 +1,7 @@
+
+search:
+  - chrome: {}
+  - implicitly_wait: 5
+  - get: https://ceshiren.com
+  - find: { id: search-button }
+  - click: {}

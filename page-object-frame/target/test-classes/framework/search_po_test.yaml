@@ -1,0 +1,9 @@
+data:
+- 接口测试框架
+- BAT 大厂测试开发
+
+steps:
+  - WebMainPage: {}
+  - webMainPage.search: {}
+  - WebSearchPage: {}
+  - webSearchPage.search: ${data}
